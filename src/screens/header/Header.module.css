@@ -1,0 +1,110 @@
+.mainDiv{
+    width: 100%;
+}
+.navBar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.upperDiv{
+    margin: 10px 0;
+    width: 90%;
+    /* align-self: center; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: blue; */
+    align-items: center;
+}
+.UD_left{
+    width: 60%;
+}
+.UD_right{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.lowerDiv{
+    /* background-color: aqua; */
+    margin: 10px 0;
+    padding: 10px 0;
+    width: 90%;
+    border-top: 1px solid var( --light-grey);
+    border-bottom: 1px solid var( --light-grey);
+    display: flex;
+    justify-content: space-between;
+}
+.options{
+    font-size: var(--mobile-heading);
+    color: var(--white-color);
+
+    /* color: var(--white-color); */
+    /* background-color: black; */
+    font-weight: 600;
+    cursor: pointer;
+}
+.icons{
+    width: 31%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.icon{
+    font-size: 20px;
+    color: var(--light-grey);
+    cursor: pointer;
+}
+.loginBtn{
+    width: 31%;
+}
+.languages{
+    width: 31%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    width: 85%;
+}
+.menuIcon{
+    color: var(--button1);
+    font-size: 30px;
+    cursor: pointer;
+    
+}
+/* .menu{
+    background-color: aqua;
+    background-image: linear-gradient(var(--button1), var(--button2));
+    
+} */
+.menuheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /* margin: 20px; */
+    padding-bottom: 20px;
+    border-bottom: 1px solid var( --light-grey);
+    width: 85%;
+
+
+
+}
+.menuOptions{
+    display: flex;
+    flex-direction: column;
+}
+.menuItem{
+    padding: 20px 0;
+    border-bottom: 1px solid var( --light-grey);
+    color: var(--white-color);
+
+}

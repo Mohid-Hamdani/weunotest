@@ -1,0 +1,15 @@
+.btn{
+    width: 100%;
+    /* background-color: var(--yellow-color); */
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
+    padding: 12px 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: var(--mobile-heading);
+    background-image: linear-gradient(var(--button1), var(--button2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

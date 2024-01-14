@@ -1,0 +1,121 @@
+/* .mainDiv{
+
+} */
+.carousel{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.carouselImg{
+    width: 100%;
+    height: 100vh;
+
+}
+.carouselImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.header{
+    width: 100%;
+    position: absolute;
+    /* top: 100px; */
+    z-index:2;
+    transition: top 0.3s;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-left: 10%;
+    position: absolute;
+    top: 40%;
+    color: var(--white-color);
+}
+.name{
+    font-size: var(--mobile-heading);
+    text-wrap: balance;
+
+}
+.heading{
+    font-size: var(--dashboard-font-size);
+    margin: 20px 0;
+    font-family: var(--font-family);
+    text-wrap: balance;
+    overflow-wrap: break-word;
+}
+.desc{
+    width: 90%;
+    text-wrap: balance;
+    word-wrap    : break-word;
+
+}
+.infoBtn{
+    width: 70%;
+    margin-top: 20px;
+}
+.btn{
+    padding: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+.midDiv{
+    width: 100%;
+    background-image: linear-gradient(to right, #283606 , #0F1500);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+
+
+}
+.videoScreen{
+    padding: 50px 0;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
+.footer{
+    padding: 50px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    border-top: 1px solid var(--light-grey);
+}
+.tickets{
+    margin: 50px 0;
+    width: 100%;
+}
+@media screen and (max-width:1024px) {
+    .info{
+        width: 50%;
+    }
+}
+
+/* @media screen and (max-width:1075px) {
+
+} */
+
+/* @media screen and (max-width:882px) {
+  
+} */
+
+
+@media screen and (max-width:575px) {
+    .info{
+        width: 100%;
+    }
+    .name{
+       width: 100%;
+
+    }
+    .heading{
+     width: 100%;
+
+    
+    }
+}
